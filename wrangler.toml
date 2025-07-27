@@ -1,0 +1,11 @@
+name = "data"
+main = "src/index.tsx"
+workers_dev = true
+compatibility_date = "2025-07-01"
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "PRIME_BITMAP_KV"
+id = "a68ebc3c9b4346128b89ddf3864e1493"
